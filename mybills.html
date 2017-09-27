@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>My manager | My bills</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+       <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+        <link href="css/style.css" rel="stylesheet" type="text/css"/>
+        <link href="css/font-awesome.min.css" rel="stylesheet" type="text/css"/>
+         
+    </head>
+    <body>
+        <nav class="navbar navbar-inverse">
+            <div class="container-fluid">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span> 
+                    </button>
+                    <a class="navbar-brand" href="#">My manager</a>
+                </div>
+                <div class="collapse navbar-collapse" id="myNavbar">
+
+                    <ul class="nav navbar-nav navbar-right">
+                        <li><a href="mybills.html"><span class="glyphicon glyphicon-log-in"></span> Logout</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+        <div class="mainblock container-fluid">
+            <div class="row page-titles">
+                <div class="col-md-5 align-self-center">
+                    <h3 class="text-themecolor">Bill manager</h3>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <div class="card">
+                    <div class="card-body">
+                        <h4 class="card-title">All bills</h4>
+                        <h6 class="card-subtitle">101 bills found</h6>
+                        <div class="table-responsive">
+	<div class="col-md-12 row page-titles">
+        <div class="col-sm-3">
+             
+                <div class="input-group stylish-input-group">
+                    <input type="text" class="form-control"  placeholder="Search" >
+                    <span class="input-group-addon">
+                        <button type="submit">
+                            <span class="glyphicon glyphicon-search"></span>
+                        </button>  
+                    </span>
+                </div>
+            
+        </div>
+            <div class="col-sm-6">
+                <!-- Default button with a ripple effect -->
+<button type="button" class="btn btn-default"> Copy </button >
+
+<!--Primary button with a ripple effect-->
+<button type="button" class="btn btn-primary"> Print </button >
+
+<!--Success button with a ripple effect-->
+<button type="button" class="btn btn-success"> Excel </button >
+
+<!--Information button with a ripple effect-->
+<button type="button" class="btn btn-info"> CSV </button >
+
+<!--Warning button with a ripple effect -->
+<button type="button" class="btn btn-warning"> PDF </button >
+
+<!--Danger button with a ripple effect -->
+<button type="button" class="btn btn-danger"> xlsx </button >
+           </div>
+            <div class="col-sm-3">
+                <span class="filtersearch">License: 
+                <label class="switch">
+  <input type="checkbox">
+  <span class="slider round"></span>
+</label></span>
+<span class="filtersearch">Paid: 
+<label class="switch">
+  <input type="checkbox" checked>
+  <span class="slider round"></span>
+</label>
+</span>
+            </div>
+	
+</div>
+                            
+                            <table class="table">
+                                <thead>
+                                    <tr>
+                                        <th>#</th>
+                                        <th>Customer</th>
+                                        <th>License No</th>
+                                        <th>Product</th>                                        
+                                        <th>Amount</th>
+                                        <th>Date</th>
+                                        <th>Status</th>
+                                        <th>Actions</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Rami reddi works</td>
+                                        <td>1tbi00as345</td>
+                                        <td>Cement</td>                                        
+                                        <td class="count"><i class="fa fa-inr"></i> 50000</td>
+                                        <td>Aug 12,2017</td>
+                                        <td><label class="label-paid">Paid</label></td>
+                                        <td class="text-nowrap">
+                                             <a href="#" data-toggle="tooltip" data-original-title="View"> <i class="fa fa-eye text-themecolor "></i> </a>
+                                                    <a href="#" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-pencil text-inverse"></i> </a>
+                                                    <a href="#" data-toggle="tooltip" data-original-title="Close"> <i class="fa fa-trash text-danger"></i> </a>
+                                                </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Harsha automotive consultancy</td>
+                                        <td>1tbi00as345</td>
+                                        <td>Cement</td>                                        
+                                        <td class="count"><i class="fa fa-inr"></i> 50000</td>
+                                        <td>Aug 12,2017</td>
+                                        <td><label class="label-due">Due</label></td>
+                                        <td class="text-nowrap">
+                                             <a href="#" data-toggle="tooltip" data-original-title="View"> <i class="fa fa-eye text-themecolor"></i> </a>
+                                                    <a href="#" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-pencil text-inverse"></i> </a>
+                                                    <a href="#" data-toggle="tooltip" data-original-title="Close"> <i class="fa fa-trash text-danger"></i> </a>
+                                                </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Rajendra creative solutions</td>
+                                        <td>1tbi00as345</td>
+                                        <td>Cement</td>                                        
+                                        <td class="count"><i class="fa fa-inr"></i> 50000</td>
+                                        <td>Aug 12,2017</td>
+                                        <td><label class="label-paid">Paid</label></td>
+                                        <td class="text-nowrap">
+                                             <a href="#" data-toggle="tooltip" data-original-title="View"> <i class="fa fa-eye text-themecolor"></i> </a>
+                                                    <a href="#" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-pencil text-inverse"></i> </a>
+                                                    <a href="#" data-toggle="tooltip" data-original-title="Close"> <i class="fa fa-trash text-danger"></i> </a>
+                                                </td>
+                                    </tr>
+                                    
+                                    <tr>
+                                        <td>2</td>
+                                        <td>venkateswara cement works</td>
+                                        <td>1tbi00as345</td>
+                                        <td>Cement</td>                                        
+                                        <td class="count"><i class="fa fa-inr"></i> 50000</td>
+                                        <td>Aug 12,2017</td>
+                                        <td><label class="label-due">Paid</label></td>
+                                        <td class="text-nowrap">
+                                             <a href="#" data-toggle="tooltip" data-original-title="View"> <i class="fa fa-eye text-themecolor"></i> </a>
+                                                    <a href="#" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-pencil text-inverse"></i> </a>
+                                                    <a href="#" data-toggle="tooltip" data-original-title="Close"> <i class="fa fa-trash text-danger"></i> </a>
+                                                </td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>venkateswara cement works</td>
+                                        <td>1tbi00as345</td>
+                                        <td>Cement</td>                                        
+                                        <td class="count"><i class="fa fa-inr"></i> 50000</td>
+                                        <td>Aug 12,2017</td>
+                                        <td><label class="label-due">Paid</label></td>
+                                        <td class="text-nowrap">
+                                             <a href="#" data-toggle="tooltip" data-original-title="View"> <i class="fa fa-eye text-themecolor"></i> </a>
+                                                    <a href="#" data-toggle="tooltip" data-original-title="Edit"> <i class="fa fa-pencil text-inverse"></i> </a>
+                                                    <a href="#" data-toggle="tooltip" data-original-title="Close"> <i class="fa fa-trash text-danger"></i> </a>
+                                                </td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                            <ul class="pagination">
+              <li class="disabled"><a href="#">«</a></li>
+              <li class="active"><a href="#">1 <span class="sr-only">(current)</span></a></li>
+              <li><a href="#">2</a></li>
+              <li><a href="#">3</a></li>
+              <li><a href="#">4</a></li>
+              <li><a href="#">5</a></li>
+              <li><a href="#">»</a></li>
+            </ul>
+                        </div>
+                       
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+    </body>
+</html>
