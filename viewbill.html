@@ -44,22 +44,71 @@
                     <div class="card-body">
                         <div id="print-content">
                             <table width="100%" style="">
+                                <!--HEADER PART-->
                                 <tr>
                                     <td>
-                                        <p>S.Anji reddy</p>
-                                        <p>Near surya nilayam<br>kamavarapukota, AP-534449</p>
-                                        <p>GST No: 37GHEPS0111M1Z7</p>
-                                        <p>+91 9502603926<br/>+91 9490173915</p>
+                                        <p style="margin:0;">S.Anji reddy</p>
+                                        <p style="margin:0;">Near surya nilayam<br>kamavarapukota, AP-534449</p>
+
+                                        <p style="margin:0;">Contact: +91 9502603926<br/>+91 9490173915</p>
                                     </td>
-                                    <td>
-                                        <img alt="" src="images/vcw.png"><input type="file" accept="image/*">
+                                    <td valign="top" align="right" style="text-align:right;">
+                                        <img alt="" src="images/vcw.png" width="180">
+                                        <p style="margin:0;margin-right: 20px;">GST No: 37GHEPS0111M1Z7</p>
                                     </td>
 
                                 </tr>
+                                <!--CUSTOMER TABLE PART-->
+<tr>
+    <td>
+        <h4>Recipient</h4>
+        <address contenteditable>
+            <p>Some Company<br>c/o Some Guy</p>
+            <P class="txt-normal">Ph no: +91 9848280909</P>
+            <P class="txt-normal">Lic no:848280909848280909 </P>
+        </address>
+    </td>
+    <td>
+        <table class="meta" width="100%" align="left">
+            <tr>
+                <th><span contenteditable>Invoice #</span></th>
+                <td><span contenteditable>101138</span></td>
+            </tr>
+            <tr>
+                <th><span contenteditable>Date</span></th>
+                <td><span contenteditable>January 1, 2012</span></td>
+            </tr>
+            <tr>
+                <th><span contenteditable>Amount Due</span></th>
+                <td><span id="prefix" contenteditable>$</span><span>600.00</span></td>
+            </tr>
+        </table>
+    </td>
+</tr>
+                                <tr>
+                                    <td>
 
+                                            <label class="control-label">Product</label>
+                                            <select class="form-control">
+                                                <option>Cement</option>
+                                                <option>Iron</option>
+                                                <option>material</option>
+                                            </select>
+
+                                    </td>
+                                    <td>
+                                        <label class="control-label">Brand</label>
+                                            <select class="form-control">
+                                                <option>Cement</option>
+                                                <option>Iron</option>
+                                                <option>material</option>
+                                            </select>
+
+                                    </td>
+                                </tr>
                                 <tr>
                                     <td colspan="2">
-                                        <table>
+                                        <table width="100%">
                                             <thead>
                                             <tr>
                                                 <th>S.No</th>
@@ -68,7 +117,7 @@
                                                 <th>Rate</th>
                                                 <th>CGST%</th>
                                                 <th>SGST%</th>
-                                            <th>Net Amt</th>
+                                                <th>Net Amt</th>
                                             </tr>
                                             </thead>
                                             <tr>
@@ -87,81 +136,7 @@
 
 
 
-                        <article>
-                            <h1>Recipient</h1>
-                            <address contenteditable>
-                                <p>Some Company<br>c/o Some Guy</p>
-                                <P class="txt-normal">Ph no: +91 9848280909</P>
-                                <P class="txt-normal">Lic no:848280909848280909 </P>
-                            </address>
-                            <table class="meta">
-                                <tr>
-                                    <th><span contenteditable>Invoice #</span></th>
-                                    <td><span contenteditable>101138</span></td>
-                                </tr>
-                                <tr>
-                                    <th><span contenteditable>Date</span></th>
-                                    <td><span contenteditable>January 1, 2012</span></td>
-                                </tr>
-                                <tr>
-                                    <th><span contenteditable>Amount Due</span></th>
-                                    <td><span id="prefix" contenteditable>$</span><span>600.00</span></td>
-                                </tr>
-                            </table>
-                            
-                            <div class="col-md-6 col-sm-6">
-                                <label class="control-label">Product</label>
-                                <select class="form-control">
-                                    <option>Cement</option>
-                                    <option>Iron</option>
-                                    <option>material</option>
-                                </select>
-                            </div>
-                            <div class="col-md-6 col-sm-6">
-                                <label class="control-label">Product</label>
-                                <select class="form-control">
-                                    <option>Cement</option>
-                                    <option>Iron</option>
-                                    <option>material</option>
-                                </select>
-                            </div>
-                           
-                            <table class="inventory table table-striped">
-                                <thead>
-                                    <tr>
-                                        <th><span contenteditable>Item</span></th>
-                                        <th><span contenteditable>Description</span></th>
-                                        <th><span contenteditable>Rate</span></th>
-                                        <th><span contenteditable>Quantity</span></th>
-                                        <th><span contenteditable>Price</span></th>
-                                    </tr>
-                                </thead>
-                                <tbody>
-                                    <tr>
-                                        <td><a class="cut">-</a><span contenteditable>Front End Consultation</span></td>
-                                        <td><span contenteditable>Experience Review</span></td>
-                                        <td><span data-prefix>$</span><span contenteditable>150.00</span></td>
-                                        <td><span contenteditable>4</span></td>
-                                        <td><span data-prefix>$</span><span>600.00</span></td>
-                                    </tr>
-                                </tbody>
-                            </table>
-                            <a class="add">+</a>
-                            <table class="balance">
-                                <tr>
-                                    <th><span contenteditable>Total</span></th>
-                                    <td><span data-prefix>$</span><span>600.00</span></td>
-                                </tr>
-                                <tr>
-                                    <th><span contenteditable>Amount Paid</span></th>
-                                    <td><span data-prefix>$</span><span contenteditable>0.00</span></td>
-                                </tr>
-                                <tr>
-                                    <th><span contenteditable>Balance Due</span></th>
-                                    <td><span data-prefix>$</span><span>600.00</span></td>
-                                </tr>
-                            </table>
-                        </article>
+
                         </div>
 
 <aside>
